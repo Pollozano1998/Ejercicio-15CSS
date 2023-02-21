@@ -106,12 +106,12 @@
     background-color: blue  ;;  
 }
 .linea-horizontal {
-    width: 400px;
+    width: 360px;
     height: 1px;
     z-index: 100;
 }
 .linea-vertical {
     width: 1px;
-    height: 400px;
+    height: 360px;
     z-index: 100;
 }
