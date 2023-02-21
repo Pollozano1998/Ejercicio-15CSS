@@ -1,0 +1,117 @@
+.circle-1{
+    background-color: gray;
+    width: 400px;
+    height:400px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 0;
+    box-shadow: 1px 2px 6px 2px rgb(178, 39, 39,1);
+}
+
+.circle-2{
+    background-color: red;
+    width: 40px;
+    height:40px;
+    border-radius: 100%;
+    position: absolute;
+    z-index:90;
+    top: 188px;
+    left: 188px;
+}
+.circle-3{
+    background-color: aquamarine;
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+    position: absolute;
+    z-index:80;
+    top: 168px;
+    left: 169px;
+}
+.circle-4{
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    z-index:70;
+    top: 148px;
+    left: 149px;
+}
+.circle-5{
+    background-color: aquamarine;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    position: absolute;
+    z-index:60;
+    top: 128px;
+    left: 130px;
+}
+.circle-6{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    z-index:50;
+    top: 109px;
+    left: 110px;
+}
+.circle-7{
+    background-color: aquamarine;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    position: absolute;
+    z-index:40;
+    top: 90px;
+    left: 90px;
+}
+.circle-8{
+    background-color: red;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    position: absolute;
+    z-index:30;
+    top: 70px;
+    left: 70px;
+}
+.circle-9{
+    background-color: aquamarine;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    position: absolute;
+    z-index:20;
+    top: 50px;
+    left: 50px;
+}
+.circle-10{
+    background-color: red;
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    position: absolute;
+    z-index:10;
+    top: 29px;
+    left: 29px;
+}
+.linea-horizontal, .linea-vertical{
+    position: absolute;
+    top: 208px;
+    left: 208px;
+    transform: translate(-50%, -50%);
+    background-color: blue  ;;  
+}
+.linea-horizontal {
+    width: 400px;
+    height: 1px;
+    z-index: 100;
+}
+.linea-vertical {
+    width: 1px;
+    height: 400px;
+    z-index: 100;
+}
